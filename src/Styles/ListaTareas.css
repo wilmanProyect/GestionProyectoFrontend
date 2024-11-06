@@ -1,0 +1,68 @@
+.open-form-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+
+    border: 3px solid rgba(41, 66, 120, 1);
+    background: linear-gradient(127deg,
+            rgba(17, 30, 56, 1) 0%,
+            rgba(73, 33, 97, 1) 64%);
+
+    background-blend-mode: hue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.modal-content {
+    background: linear-gradient(127deg,
+            rgba(17, 30, 56, 1) 0%,
+            rgba(73, 33, 97, 1) 64%);
+    border: 3px solid rgba(41, 66, 120, 1);
+    background-blend-mode: hue;
+    padding: 50px;
+    border-radius: 8px;
+
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(102, 0, 40, 0.2);
+    position: relative;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.seleccion {
+    padding: 10px;
+}
+
+.seleccion select {
+    padding: 10px;
+    margin: 0 20px;
+    border: 3px solid rgba(41, 66, 120, 1);
+    border-radius: 8px;
+    background: linear-gradient(127deg,
+            rgba(149, 162, 191, 1) 0%,
+            rgba(73, 33, 97, 1) 100%);
+    background-blend-mode: hue;
+}
+.seleccion option{
+    color: black;
+}
+
+.boton-cerarSesion {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .boton-cerarSesion:hover {
+    background-color: #555;
+  }
