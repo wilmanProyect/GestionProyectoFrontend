@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const URL_BACKEND = 'https://gestionproyectobackend.onrender.com' //URL del backend en la nube
+const local_hosto = 'http://localhost:3000'         // UrL del local hosto del backend 
 const api = axios.create({
-    baseURL: 'http://localhost:3000',  // Cambia esta URL si es diferente en tu backend
+    baseURL: URL_BACKEND ,
 });
 
 api.interceptors.request.use((config) => {
